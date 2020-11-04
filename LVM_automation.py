@@ -1,5 +1,5 @@
 import os
-
+#importing os
 def lvm_partition():
 	IP = input("\t\t\tEnter IP at which you want to create partition:")
 	os.system("ssh root@{} fdisk -l".format(IP))
